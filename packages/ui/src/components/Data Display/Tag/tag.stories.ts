@@ -10,3 +10,17 @@ const meta = {
 
 export default meta;
 type Story = StoryObj<typeof meta>;
+
+export const BlueTag: Story = {
+  args: {
+    children: 'Tag',
+    color: "blue"
+  },
+};
+
+export const SuccessTag: Story = {
+  args: {
+    children: "Tag",
+    color: "success"
+  }
+};

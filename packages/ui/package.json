@@ -3,10 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./component-test": "./src/component-test.tsx",
-    "./button": "./src/button.tsx",
-    "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
+    "./tag": "./src/components/Data Display/Tag/tag.tsx",
+    "./button": "./src/components/General/Button/button.tsx"
   },
   "scripts": {
     "chromatic": "npx chromatic --project-token=chpt_7757b072b0eb844",

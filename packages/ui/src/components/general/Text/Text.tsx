@@ -23,7 +23,7 @@ export interface TextProps {
 /**
  * A component for displaying a text and titles.
  */
-const Text = ({ type = undefined, text, isBold = false, titleSize = null }: TextProps) => {
+const Text = ({ text, isBold = false, titleSize = null, type = undefined }: TextProps) => {
   if(titleSize){
     return (
       <TitleAnt level={titleSize} type={type}>

@@ -1,0 +1,16 @@
+/* TODO: move this to a general theme */
+.ant-menu-item-selected {
+    color:#FF5740 !important;
+}
+
+:where(.css-dev-only-do-not-override-98ntnt).ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected::after {
+    border-bottom-color: #FF5740 !important;
+}
+
+:where(.css-dev-only-do-not-override-98ntnt).ant-menu-light.ant-menu-horizontal >.ant-menu-item:hover::after{
+   border-bottom-color: #FF5740 !important;
+}
+
+.ant-menu {
+    text-transform: uppercase;
+}

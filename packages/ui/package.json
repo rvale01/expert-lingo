@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./tag": "./src/components/Data Display/Tag/tag.tsx",
-    "./button": "./src/components/General/Button/button.tsx"
+    "./Menu": "./src/components/Layout/Menu/Menu.tsx",
+    "./Tag": "./src/components/Data Display/Tag/Tag.tsx",
+    "./Button": "./src/components/General/Button/Button.tsx"
   },
   "scripts": {
     "chromatic": "npx chromatic --project-token=chpt_7757b072b0eb844",

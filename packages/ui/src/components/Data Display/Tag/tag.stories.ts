@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import Tag from "./tag";
+import Tag from "./Tag";
 
 const meta = {
     title: 'Design System/Data Display/Tag',
